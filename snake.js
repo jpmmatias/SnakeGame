@@ -75,6 +75,7 @@ function Snake() {
   
       return false;
     }
+
   
     this.checkCollision = function() {
       for (var i=0; i<this.tail.length; i++) {
@@ -85,4 +86,6 @@ function Snake() {
         }
       }
     }
+
+    
   }
