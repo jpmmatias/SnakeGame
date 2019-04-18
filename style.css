@@ -1,3 +1,39 @@
 #canvas{
     background-color: midnightblue;
 }
+.titulo{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+.pontuacao{
+    font-family: 'Major Mono Display', monospace;
+    color: white
+}
+.background{
+    background-color: black !important;
+}
+.tituloAbout{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    padding-right: 43%;
+    margin-top: 5%;
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 16px;
+
+}
+@media (max-width: 600px) 
+{
+    .about{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 16px;
+    
+    }
+}
