@@ -1,6 +1,6 @@
 const canvas = document.querySelector("#canvas");
 const ctx = canvas.getContext("2d");
-const scale = 10;
+const scale = 20;
 const rows= canvas.height/scale;
 const columns = canvas.width/scale;
 var snake;
@@ -23,9 +23,12 @@ var snake;
             fruit.pickLocation();
         }
 
+        snake.checkCollision();
 
 
-    },150);
+        document.querySelector('.pontos')
+        .innerText = snake.total;
+    },140);
 }());
 window.addEventListener('keydown',((evt)=>{
     const direction = evt.key.replace( 'Arrow','');
